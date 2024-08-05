@@ -1,1 +1,10 @@
-buildscript {}
+buildscript {
+    repositories {
+        mavenCentral()
+        google()
+    }
+    dependencies {
+        classpath libs.kotlin.gradle.plugin
+    }
+}
+tasks.register("prepareKotlinBuildScriptModel"){}

@@ -7,4 +7,6 @@ alias(libs.plugins.android.application) apply false
 repositories {
     google()
     mavenCentral()
+    jcenter()
+
 }
